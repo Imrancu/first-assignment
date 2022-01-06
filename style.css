@@ -1,0 +1,168 @@
+/*====================
+Universal CSS
+====================*/
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Titillium Web", sans-serif;
+}
+.header-flex,
+.mission-flex,
+.develop-flex,
+.knowledge-flex {
+  display: flex;
+  margin: 60px 130px;
+}
+h1 {
+  font-size: 50px;
+  padding-left: 15px;
+  color: rgb(68, 68, 68);
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+  color: rgb(68, 68, 68);
+}
+.colorful-text {
+  color: #fa6c5a;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  background: #fa6c5a;
+  border-radius: 7px;
+}
+/*====================
+Header Section CSS
+====================*/
+.border-left {
+  border-left: 6px solid #fa6c5a;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 40px 0;
+}
+.small-text {
+  font-size: 16px;
+  color: rgb(36, 36, 36);
+}
+
+.row {
+  width: 50%;
+}
+.center {
+  margin: auto;
+}
+.header-flex .row img {
+  width: 75%;
+  float: right;
+}
+/*====================
+Mission Section CSS
+====================*/
+.illustration {
+  height: 100px;
+  width: 100px;
+}
+.mission-card {
+  background-color: honeydew;
+}
+.vission-card {
+  background-color: cornsilk;
+}
+.goal-card {
+  background-color: ghostwhite;
+  margin-right: 0 !important;
+}
+.mission-card,
+.vission-card,
+.goal-card {
+  max-width: 33.33%;
+  height: 260px;
+  margin-right: 50px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.mission-flex p {
+  margin: 0;
+}
+/*====================
+Develop Section CSS
+====================*/
+.develop-flex,
+.knowledge-flex {
+  margin-top: 100px;
+}
+.develop-flex img {
+  width: 70%;
+}
+.develop-flex h2 {
+  text-align: left;
+  line-height: 45px;
+  margin-top: 0;
+}
+/*====================
+knowledge Section CSS
+====================*/
+.knowledge-flex img {
+  width: 70%;
+  float: right;
+}
+.knowledge-flex h2 {
+  text-align: left;
+  line-height: 45px;
+  margin-top: 0;
+}
+/*====================
+Contact Section CSS
+====================*/
+.contact-flex {
+  margin-top: 100px;
+}
+.contact-flex h2 {
+  text-align: center;
+  line-height: 45px;
+  margin-top: 0;
+}
+.form {
+  text-align: center;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid gray;
+}
+button {
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+footer {
+  background: cornsilk;
+}
+footer h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-top: 50px;
+}
+footer p {
+  font-size: 16;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+}
