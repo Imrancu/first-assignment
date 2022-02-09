@@ -88,8 +88,7 @@ Mission Section CSS
 .mission-card,
 .vission-card,
 .goal-card {
-  max-width: 33.33%;
-  height: 260px;
+  width: 100%;
   margin-right: 50px;
   padding: 25px;
   border-radius: 20px;
